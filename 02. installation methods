@@ -7,7 +7,4 @@ there are different installation methods to govern terraform and all of them are
         packages varies according to distibution you are choosing to use
 
 
-Specifically for MacOs since I'm using one all we nee dto do is:
-download Homebrew 
-update Homebrew & install terraform
-verify installation
+to install terraform use: https://developer.hashicorp.com/terraform/downloads
