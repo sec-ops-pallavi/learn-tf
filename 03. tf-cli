@@ -1,0 +1,16 @@
+to access all sub commands just run "terraform" itself helps you enlist all subcommands it has.
+
+
+CLI's:
+1. "terraform version" : to find version of terraform you are running
+2. "terraform -chdir=<path_to/f>" : to switch thw wroking directory within the terraform
+3. "terrfaorm int" : initialise the directory
+4. "terraform plan" : creating an execution plan
+5. "terrform apply" : apply all the changes in your configuration
+6. "terraform destroy" : to destroy all the build in configuration or infra 
+7. "terraform plan -out <plan_name> : outupt a deployment plan
+8. "terraform plan -destroy" : output a destory plan
+9. "terraform apply <plan-name>" : apply specific plan 
+10. "terraform apply -target=<resource_name>" : only apply changes to a trageted resource & not whole infra
+11. "terraform apply -var my_variable=<variable> : pass a variable via cli
+12. "terraform providers" : get provider info used in configuration
