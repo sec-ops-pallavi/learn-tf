@@ -1,1 +1,15 @@
+** What id terraform?
+=>> a tool for building, changing & versioning infra safely & efficiently in cloud or locally.
+>>>  existing services also can be managed by using terraform
 
+** Terraform Architecture:
+
+it consists of terraform configuration file as: terraform_config.tf
+terraform vars file as: terraform.tfvars
+& terraform state as: terraform.tfstate
+
+** Key features:
+1. Infrastructure as code (IAAS)
+2. Execution plans
+3. Resource graph
+4. Change automation
