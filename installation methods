@@ -1,0 +1,13 @@
+there are different installation methods to govern terraform and all of them are listed below as follows;
+
+1. Manually- thsi can be done by either downloading pre-compiled binary (download and move to your required path) or compile by source (by cloning it form Github repo and install it)
+2. Mac OS- using package manager home brew is easiest & simpier
+3. Win OS- using package manager called chocolatey & install it
+4. Linux OS- install some packages & then add HashiCorp repo
+        packages varies according to distibution you are choosing to use
+
+
+Specifically for MacOs since I'm using one all we nee dto do is:
+download Homebrew 
+update Homebrew & install terraform
+verify installation
